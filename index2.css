@@ -1,0 +1,188 @@
+*{
+    margin:0 auto;
+    padding:0;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#head{
+    width:100%;
+    height:50px;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFFAF5;
+}
+#head .box{
+    float: right;
+    margin-right:30px;
+}
+#head a{
+    float: left;
+    color:#000;
+    height:50px;
+    line-height:50px;
+}
+#head span{
+    float: left;
+    color:#666666;
+    font-size:14px;
+    line-height:50px;
+    margin:0 20px;;
+}
+#head span i{
+    color:#FF3D8A;
+}
+#head input{
+    width:100px;
+    height:32px;
+    float: left;
+    font-size:14px;
+    margin-top:8px;
+    margin-left:20px;
+    background-color: #fff;
+    border:1px solid #666;
+}
+.ipt2:hover{
+    background-color: #5874D8;
+    border:1px solid #5874D8;
+    color:#fff;
+}
+/*菜单*/
+/*
+    两个标签，他们的上边框都没有设置border属性，并且紧挨在一起，所以就会发生margin折叠
+    1 给其中一个设置border
+    2 给其中一个设置 overflow：auto
+    3 不用了 ，干脆用padding-top
+*/
+#menu{
+    width:1200px;
+    height:120px;
+    padding-top:50px;
+}
+#menu p,#menu span{
+    float:left;
+    margin-top:40px;
+    font-size: 32px;
+}
+#menu ul{
+    float: right;
+}
+#menu ul li{
+    width:100px;
+    height:50px;
+    color:#000;
+    text-align: center;
+    line-height:50px;
+    margin-top:40px;
+    float: left;
+}
+#menu ul li:hover{
+    color:#4AB344;
+}
+#bigImg{
+    height:300px;
+    background:url("images/bg1.jpg") -250px 0px;
+}
+#content{
+    height:730px;
+    border-bottom:1px solid #EAEAEA;
+}
+#content .c_top{
+    height:98px;
+    text-align: center;
+}
+#content .c_bottom{
+    height:98px;
+}
+#content .c_bottom ul{
+    width:360px;
+    float: left;
+    margin-left:60px;
+}
+#content .c_bottom .p1{
+    font-size: 16px;
+    height:22px ;
+    color: #7D7D7D;
+}
+#content .c_bottom .p2 {
+    font-size: 28px;
+    height:38px ;
+    color: #4CB147;
+}
+#content .c_bottom .p3 {
+    color: #7D7D7D;
+    font-size: 14px;
+    text-align: justify;
+}
+#fruitimg{
+    height:760px;
+    margin:95px 0 0 95px;
+}
+#fruitimg img{
+    width:543px;
+    height:319px;
+    margin-top:15px;
+}
+#fruitimg .img{
+    width:371px;
+    height:319px;
+}
+#fruitimg .img1{
+     width:425px;
+     height:319px;
+     margin-left:15px;
+ }
+#fruitimg .img2{
+    width:324px;
+    height:319px;
+    margin-left:15px;
+}
+#fruitimg .img3{
+    width:597px;
+    height:319px;
+    margin-left:15px;
+}
+#footer{
+    height:70px;
+    background-color: #282828;
+}
+#footer ul li{
+    width:290px;
+    height:18px;
+    font-size:14px;
+    color:#888;
+
+}
+#footer ul li a{
+    color:#888;
+}
+#footer ul li .a{
+    background:url(images/bb.png) no-repeat 0px 3px;
+    background-size:16px 15px;
+    padding-left:19px;
+}
+#footer ul li .a:hover{
+    background:url(images/aa.png) no-repeat 0px 3px;
+
+}
+#footer ul li a:hover{
+    color:#4AB344;
+}
+#a{
+    width:43px;
+    height:43px;
+    line-height:43px;
+    font-size:14px;
+    text-align:center;
+    background-color:#3FB057;
+    position:fixed;
+    right:45px;
+    bottom:55px;
+}
+a{
+    color:#fff;
+}

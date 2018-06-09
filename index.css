@@ -1,0 +1,313 @@
+*{
+    margin:0 auto;
+    padding:0;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#head{
+    width:100%;
+    height:50px;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFFAF5;
+}
+#head .box{
+    float: right;
+    margin-right:30px;
+}
+#head a{
+    float: left;
+    color:#000;
+    height:50px;
+    line-height:50px;
+}
+#head span{
+    float: left;
+    color:#666666;
+    font-size:14px;
+    line-height:50px;
+    margin:0 20px;;
+}
+#head span i{
+    color:#FF3D8A;
+}
+#head input{
+    width:100px;
+    height:32px;
+    float: left;
+    font-size:14px;
+    margin-top:8px;
+    margin-left:20px;
+    background-color: #fff;
+    border:1px solid #666;
+}
+.ipt2:hover{
+    background-color: #5874D8;
+    border:1px solid #5874D8;
+    color:#fff;
+}
+/*菜单*/
+/*
+    两个标签，他们的上边框都没有设置border属性，并且紧挨在一起，所以就会发生margin折叠
+    1 给其中一个设置border
+    2 给其中一个设置 overflow：auto
+    3 不用了 ，干脆用padding-top
+*/
+#menu{
+    width:1200px;
+    height:120px;
+    padding-top:50px;
+}
+#menu p,#menu span{
+    float:left;
+    margin-top:40px;
+    font-size: 32px;
+}
+#menu ul{
+    float: right;
+}
+#menu ul li{
+    width:100px;
+    height:50px;
+    color:#000;
+    text-align: center;
+    line-height:50px;
+    margin-top:40px;
+    float: left;
+}
+#menu ul li:hover{
+    color:#4AB344;
+}
+#bigImg{
+    height:544px;
+    background:url(images/pic_1.png) -250px 0px;
+    position: relative;
+}
+
+#bigImg .jtl{
+    width:71px;
+    height:71px;
+    background:url(images/left.png) rgba(0,0,0,0.1);
+    position: absolute;
+    top:240px;
+    left:60px;
+}
+#bigImg .jtr{
+    width:71px;
+    height:71px;
+    background:url(images/right.png) rgba(0,0,0,0.1) ;
+    position: absolute;
+    right:60px;
+    top:240px;
+}
+#bigImg p{
+    color: #fff;
+    font-size:16px;
+    line-height:30px;
+}
+#bigImg span{
+    color:#FDD842;
+}
+/*战略定位*/
+#intr{
+    height:370px;
+    text-align: center;
+}
+#intr p{
+    color: #666;
+    font-size: 16px;
+    line-height: 30px;
+}
+#intr p .text{
+    font-family:"微软雅黑";
+}
+/*水果内容*/
+#jieshao{
+    height:543px;
+}
+#jieshao dl{
+    width:340px;
+    height:280px;
+    float: left;
+    margin:55px 0 0 80px;
+    text-align: center;
+    font-size:14px;
+    color: #666;
+    line-height:30px;
+}
+#jieshao dd span{
+    line-height:5px;
+    font-size:20px;
+    color: #000;
+    margin-bottom:20px;
+    display: inline-block;
+}
+/* > 代表子选择器*/
+#jieshao dd>a{
+    width:130px;
+    height:99px;
+    display: inline-block;
+    background:url(images/bjiantou.png) ;
+}
+#jieshao a:hover{
+    background:url(images/jiantou.png) ;
+}
+/**/
+#content{
+    height:498px;
+    background:url(images/bg.jpg) -250px 0px;
+}
+#content span,#content p{
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    line-height:30px;
+    color: #fff;
+    font-size: 16px;
+}
+#content h1 {
+    width:260px;
+    height:44px;
+    margin:0 auto;
+    margin-top:55px;
+}
+#content a {
+    width:130px;
+    height:44px;
+    float: left;
+}
+#content  .a{
+    background: url(images/lianxia.png);
+}
+#content  h1:hover .a{
+    background: url(images/lianxi.png);
+}
+/**/
+#wz{
+    height:681px;
+}
+#wz span,#wz p{
+    font-size: 18px;
+    color: #666;
+    font-family: "微软雅黑";
+    margin-left:20px;
+    display: inline-block;
+}
+#wz p{
+    width:467px;
+    font-size: 14px;
+    text-align: justify;
+    display: inline-block;
+    line-height:25px;
+    margin:0 0 40px 20px;
+}
+#hc{
+    background: #49B345;
+    height:755px;
+}
+#hc img{
+    float: left;
+}
+#hc dl{
+    width: 551px;
+    height:378px;
+    float: left;
+    color: #fff;
+    font-size:14px;
+}
+#hc dt{
+    margin:135px 0px 15px 80px;
+    line-height:30px;
+}
+#hc dd{
+    width: 385px;
+    height:80px;
+    line-height:25px;
+}
+#contact{
+    height:585px;
+    background: #2E2E2E;
+}
+.c_left{
+    width:50%;
+    height:585px;
+    float: left;
+}
+.c_left ul{
+    margin:155px 0px 0px 118px;
+}
+.c_left ul li{
+    color:#888;
+    font-size:14px;
+    line-height:40px;
+}
+.c_right{
+    width:50%;
+    height:585px;
+    float: right;
+}
+.c_right form{
+    margin:140px 0px 0px 156px;
+    font-size:14px;
+    font-weight: bold;
+    color: #5E5E5E;
+}
+.c_right p input{
+    width:345px;
+    height:35px;
+    border: 1px solid #5E5E5E;
+    background: #5E5E5E;
+    border-radius: 3px;
+    margin-bottom:20px;
+}
+.c_right  .sub {
+    margin-left: 32px;
+}
+#footer{
+    height:70px;
+    background-color: #282828;
+
+}
+#footer ul li{
+    width:290px;
+    height:18px;
+    font-size:14px;
+    color:#888;
+
+}
+#footer ul li a{
+    color:#888;
+}
+#footer ul li .a{
+    background:url(images/bb.png) no-repeat 0px 3px;
+    background-size:16px 15px;
+    padding-left:19px;
+}
+#footer ul li .a:hover{
+    background:url(images/aa.png) no-repeat 0px 3px;
+
+}
+#footer ul li a:hover{
+    color:#4AB344;
+}
+
+#a{
+    width:43px;
+    height:43px;
+    line-height:43px;
+    font-size:14px;
+    text-align:center;
+    background-color:#3FB057;
+    position:fixed;
+    right:45px;
+    bottom:55px;
+}
+a{
+    color:#fff;
+}
+
